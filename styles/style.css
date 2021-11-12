@@ -1,0 +1,112 @@
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Red Hat Display";
+    font-size: 16px;
+    height: 100vh;
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.banner {
+    height: 160px;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    text-align: center;
+    margin: 25px auto;
+}
+
+p.desc {
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    color: var(--desaturated-blue);
+    line-height: 1.7;
+    word-spacing: 0.02em;
+}
+
+.plan {
+    width: 85%;
+    display: flex;
+    margin: 20px auto;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;   
+}
+
+.plan a {
+    color: var(--bright-blue);
+}
+
+.plan-desc {
+    width: 40%;
+}
+
+.name {
+    color: var(--dark-blue);
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+
+.price {
+    color: var(--desaturated-blue);
+}
+
+button {
+    width: 85%;
+    background-color: var(--bright-blue);
+    display: block;
+    margin: 20px auto;
+    color: #FFF;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 16px;
+    font-family: "Red Hat Display";
+    font-weight: 700;
+    box-shadow: 0px 30px 50px 0 rgba(0,0,0,0.3);
+}
+
+a.cancel {
+    color: var(--desaturated-blue);
+    text-decoration: none;
+    font-weight: 700;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    
+}
