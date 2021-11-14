@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AndreaV89/order-summary-component-main)
-- Live Site URL: [Add live site URL here](https://andreav89.github.io/order-summary-component-main/)
+- Solution URL: [Solution](https://github.com/AndreaV89/order-summary-component-main)
+- Live Site URL: [Live Site](https://andreav89.github.io/order-summary-component-main/)
 
 ## My process
 
