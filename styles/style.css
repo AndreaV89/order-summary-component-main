@@ -28,6 +28,7 @@ body {
 
 .container {
     width: 90%;
+    max-width: 400px;
     margin: 0 auto;
     border-radius: 20px;
     background-color: white;
@@ -45,7 +46,7 @@ h1 {
     font-weight: 700;
     color: var(--dark-blue);
     text-align: center;
-    margin: 25px auto;
+    margin: 30px auto 20px;
 }
 
 p.desc {
@@ -70,6 +71,12 @@ p.desc {
 
 .plan a {
     color: var(--bright-blue);
+    font-weight: 700;
+}
+
+.plan a:hover {
+    opacity: 0.5;
+    text-decoration: none;
 }
 
 .plan-desc {
@@ -90,7 +97,7 @@ button {
     width: 85%;
     background-color: var(--bright-blue);
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
     color: #FFF;
     border: none;
     border-radius: 15px;
@@ -98,7 +105,12 @@ button {
     font-size: 16px;
     font-family: "Red Hat Display";
     font-weight: 700;
-    box-shadow: 0px 30px 50px 0 rgba(0,0,0,0.3);
+    box-shadow: 0px 10px 50px 0 hsla(245, 75%, 52%, 0.5);
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 a.cancel {
@@ -106,7 +118,28 @@ a.cancel {
     text-decoration: none;
     font-weight: 700;
     display: block;
-    margin: 20px auto;
-    text-align: center;
-    
+    margin: 30px auto;
+    text-align: center;   
+}
+
+a.cancel:hover {
+    color: black;
+}
+
+@media only screen and (min-width: 376px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .plan {
+        width: 80%;
+    }
+    .plan-desc {
+        width: 50%;
+    }
+    button {
+        width: 80%;
+    }
 }
